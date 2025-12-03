@@ -354,13 +354,4 @@ h1, h2, h3 {
 .btn.primary { border: 0; background: linear-gradient(90deg, #7c3aed 0%, #8b5cf6 50%, #22d3ee 100%); }
 .btn.primary:hover { box-shadow: 0 14px 32px rgba(34,211,238,0.25); }
 
-.card-pro { overflow: hidden; }
-.card-pro::before { display: none; }
-.card-head { display: flex; align-items: center; justify-content: space-between; }
-.card-icon { width: 36px; height: 36px; border-radius: 50%; background: linear-gradient(135deg, #7c3aed, #22d3ee); box-shadow: 0 6px 18px rgba(34,211,238,0.25); }
-.badge { display: inline-block; padding: 0.18rem 0.5rem; border: 1px solid rgba(255,255,255,0.14); border-radius: 999px; font-size: 0.75rem; color: var(--muted); }
-.badge.game { border-color: rgba(239,68,68,0.5); color: #fca5a5; }
-.badge.app { border-color: rgba(34,197,94,0.5); color: #86efac; }
-.card-title { margin-top: 0.6rem; margin-bottom: 0.4rem; }
-.card-summary { color: var(--muted); min-height: 48px; }
-.card-actions { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 0.8rem; }
+.card-actions { display: flex; gap: 0.6rem; flex-wrap: wrap; margin-top: 0.8rem; }
