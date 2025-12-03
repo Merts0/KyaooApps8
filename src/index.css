@@ -351,19 +351,11 @@ h1, h2, h3 {
 .section-header { display: flex; align-items: center; justify-content: space-between; }
 .section-header .btn { padding: 0.4rem 0.8rem; }
 
-.btn.primary { background: linear-gradient(90deg, var(--primary), #22d3ee); }
+.btn.primary { border: 0; background: linear-gradient(90deg, #7c3aed 0%, #8b5cf6 50%, #22d3ee 100%); }
 .btn.primary:hover { box-shadow: 0 14px 32px rgba(34,211,238,0.25); }
 
 .card-pro { overflow: hidden; }
-.card-pro::before {
-  content: "";
-  position: absolute;
-  inset: -40% -40% auto auto;
-  width: 200px;
-  height: 200px;
-  background: radial-gradient(closest-side, rgba(124,58,237,0.25), transparent 70%);
-  transform: translate(0, -40%);
-}
+.card-pro::before { display: none; }
 .card-head { display: flex; align-items: center; justify-content: space-between; }
 .card-icon { width: 36px; height: 36px; border-radius: 50%; background: linear-gradient(135deg, #7c3aed, #22d3ee); box-shadow: 0 6px 18px rgba(34,211,238,0.25); }
 .badge { display: inline-block; padding: 0.18rem 0.5rem; border: 1px solid rgba(255,255,255,0.14); border-radius: 999px; font-size: 0.75rem; color: var(--muted); }
