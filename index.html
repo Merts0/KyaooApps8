@@ -12,6 +12,13 @@
     <meta name="theme-color" content="#0b0b0d" />
   </head>
   <body>
+    <script>
+      (function(){
+        var s = new URLSearchParams(location.search);
+        var p = s.get('p');
+        if (p) history.replaceState(null, '', p);
+      })();
+    </script>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
