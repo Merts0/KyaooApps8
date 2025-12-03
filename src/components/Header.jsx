@@ -13,7 +13,7 @@ function Header() {
         </Link>
         <nav className="nav desktop">
           <NavLink to="/games" className={({ isActive }) => isActive ? 'active' : ''}>Games</NavLink>
-          <a href="https://store.steampowered.com/app/3799920/AshBall" target="_blank" rel="noreferrer">AshBall</a>
+          <NavLink to="/applications" className={({ isActive }) => isActive ? 'active' : ''}>Applications</NavLink>
         </nav>
         <button className="nav-toggle" aria-label="Menu" onClick={() => setOpen(true)}>
           <span></span>
@@ -34,7 +34,7 @@ function Header() {
               </div>
               <div className="drawer-links">
                 <NavLink to="/games" onClick={() => setOpen(false)}>Games</NavLink>
-                <a href="https://store.steampowered.com/app/3799920/AshBall" target="_blank" rel="noreferrer" onClick={() => setOpen(false)}>AshBall</a>
+                <NavLink to="/applications" onClick={() => setOpen(false)}>Applications</NavLink>
               </div>
             </Motion.div>
           </Motion.div>
