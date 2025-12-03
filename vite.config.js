@@ -10,6 +10,7 @@ export default defineConfig({
   base: isProjectPage ? `/${repo}/` : '/',
   build: {
     outDir: 'docs',
-    assetsDir: 'assets'
+    assetsDir: 'assets',
+    emptyOutDir: false
   }
 })
