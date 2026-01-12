@@ -43,14 +43,14 @@ Device identifiers.
 General location. 
 Ad interactions. We do not share your personal content or account data with advertisers. 
 How We Use Your Information We use your information to: 
-Provide and improve app features. 
-Personalize the reading experience. 
-Process diamond rewards. 
-Handle redeem requests. 
-Detect fraud or abuse. 
-Maintain app security and performance. 
-Reward System: Closed-Loop Gift Card Redemption 
-Lunire allows users to redeem Diamonds, which are virtual points and hold no real-world monetary value or cash equivalence, for digital rewards. 
+          Provide and improve app features. 
+          Personalize the reading experience. 
+          Process Star rewards. 
+          Handle redeem requests. 
+          Detect fraud or abuse. 
+          Maintain app security and performance. 
+          Reward System: Closed-Loop Gift Card Redemption 
+          Lunire allows users to redeem Stars, which are virtual points and hold no real-world monetary value or cash equivalence, for digital rewards. 
 
 Strict Limitation: These rewards are strictly limited to closed-loop Gift Cards (e.g., Amazon, Google Play, or other third-party retailers). 
 Closed-Loop System (AML Compliance): We do not offer cash-out options, bank transfers, or conversion to any fiat currency or digital asset. This closed system is implemented to ensure compliance with Google's policies and minimize Anti-Money Laundering (AML) risks. 
