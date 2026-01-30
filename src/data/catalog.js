@@ -98,24 +98,22 @@ Last updated: [December 3, 2025]
 Overview
 QRift is a QR code utility that lets users scan QR codes instantly, generate new codes (single or bulk), and place codes onto photos. QRift is designed to be fast, private, and easy to use.
 
-Data Handling
-• Scans are processed locally on the device camera feed; we do not upload the raw camera stream.
-• Generated codes are created on-device. History is stored locally unless the user clears it.
-• When placing QR on photos, the app requires media storage access only to read or save the edited image.
-• We do not collect the content of your QR codes.
+No Data Collection
+• We do not collect, store, or transmit personal data.
+• Camera scanning and code generation are performed entirely on-device.
+• If you save edited images, they are stored locally on your device and never sent to our servers.
+• The app does not maintain server-side history or analytics.
 
 Permissions
 • Camera: required for scanning.
 • Photos/Storage: optional, for saving or editing images with QR overlays.
 
-Advertising & Analytics
-• Google AdMob is used for in-app advertising.
-• Lightweight crash diagnostics may be used to improve stability.
-• No sale of personal data; partners may receive anonymized device identifiers to serve ads or measure performance.
+Advertising
+• Ads may be displayed; the app does not collect or transmit personal data to advertisers.
 
 Premium Features
 • Bulk Generator enables creating multiple QR codes at once.
-• Premium removes ads and may unlock extended history access.
+• Premium removes ads.
 
 Acceptable Use
 • Users must not generate or share illegal, harmful, or offensive content.
