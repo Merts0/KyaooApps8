@@ -7,7 +7,7 @@ const isProjectPage = (typeof process !== 'undefined' && process.env && process.
 
 export default defineConfig({
   plugins: [react()],
-  base: isProjectPage ? `/${repo}/` : '/',
+  base: '/',
   build: {
     outDir: 'docs',
     assetsDir: 'assets',
